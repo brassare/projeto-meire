@@ -1,0 +1,137 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+header {
+    background: #F9DEEB;
+    padding: 20px 0;
+}
+
+.logo {
+    position: relative;
+	width: 999px;
+	margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #F90078;
+    text-decoration: underline;
+}
+.banner {
+    background: #F2F2F2; 
+    width: 100%;
+    padding: 20px 0 0 ;
+}
+.servicos{
+    background:#F2F2F2
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 2em;
+    clear: left;
+}
+.texto-principal { 
+    padding: 3em 0 ;
+    width: 940px;
+    margin: 0 auto;
+}
+.texto-principal p{
+    margin: 1em 0 1em;
+    font-size: 20px;
+}
+
+.texto-principal strong{
+    font-weight: bold;
+}
+.imagem-servico { 
+    width: 350px;
+    float: left;
+    margin: 0 1em 0 0;
+}
+.mapa{
+    padding: 3em 0;
+	background: #F2F2F2
+
+}
+.mapa p{
+    text-align: center;
+    margin: 0 0 1em 0 ;
+}
+.mapa strong{
+    font-weight: bold;
+}
+.mapa-estabelecimento {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.beneficios {
+    padding: 3em 0 ; 
+    background: #F2F2F2
+}
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto 0 auto ;
+}
+.lista-beneficios { 
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens { 
+    line-height: 1.5;
+    padding: 0 0 5px 10px;
+    font-size: 18px;
+}
+.itens::before {
+    content:"★";
+}
+.imagem-beneficio { 
+    width: 60%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px  #888888;
+}
+.imagem-beneficios:hover {
+	opacity: 0.7;
+}	
+.video{
+    padding: 0 0 20px 0 ;
+    text-align: center;
+    background: linear-gradient(#F2F2F2 , #888888) ;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #F9DEEB;
+}
+.copyright{
+    text-transform: uppercase;
+    background: #F9DEEB;
+    padding: 20px;
+}
+.copyright strong{
+  font-weight: bold;
+  padding: 10px;
+}
